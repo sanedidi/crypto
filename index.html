@@ -4,126 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>crypter</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
-    <header class="header">
+    <section class="header">
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__wrapper-left">
-                    <img src="./img/logo.svg" alt="logo">
+                    <div class="header__wrapper-logo">
+                        <img src="./img/logo.svg" alt="">
+                    </div>
                     <div class="header__wrapper-line"></div>
-                    <p class="header__left-item">Discover</p>
-                    <p class="header__left-item1">How it work</p>
-                </div>
-                <div class="header__wrapper-search">
-                    <input class="header__wrapper-input" type="text" placeholder="Search">
+                    <div class="header__wrapper-nav">
+                        <a class="header__wrapper-link" href="#">Discover</a>
+                        <a class="header__wrapper-link" href="#">How it work</a>
+                    </div>
                 </div>
                 <div class="header__wrapper-right">
-                    <a href="#"><img src="./img/Notification.png" alt=""></a>
-                    <a href="#" class="header__wrapper-btn">Upload</a>
-                    <a href="#" class="header__wrapper-btn1">Connect Wallet</a>
+                    <div class="header__wrapper-item">
+                        <input class="header__wrapper-search" type="text" placeholder="Search">
+                    </div>
+                    <div class="header__wrapper-item2">
+                        <a class="header__wrapper-notification" href=""> <img src="./img/Notification.png" alt=""></a>
+                    </div>
+                    <div class="header__wrapper-item3">
+                        <a href="#" class="header__wrapper-btn1">Upload</a>
+                        <a href="#" class="header__wrapper-btn2">Connect Wallet</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__inner">
+                <h2 class="hero__inner-text">Create, explore, & collect digital art NFTs.</h2>
+                <h1 class="hero__wrapper-title">The new creative economy.</h1>
+                <a class="hero__wrapper-btn" href="#">Start your search</a>
+            </div>
+        </div>
+    </section>
+    <section class="creator">
+        <div class="container">
+            <div class="creator__wrapper">
+                <div class="hero__wrapper-right">
+                    <div class="creator__wrapper-img"></div>
+                    <div class="creator__wrapper-account">
+                        <h2 class="creator__wrapper-title">the creator network®</h2>
+                        
+
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero__wrapper">
-                    <p class="hero__wrapper-text">Create, explore, & collect digital art NFTs.</p>
-                    <h2 class="hero__wrapper-title">The new creative economy.</h2>
-                    <a class="hero__wrapper-btn" href="#">Start your search</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="creator">
-            <div class="container">
-                <div class="creator__inner">
-                    <div class="creator__inner-left">
-                        <iframe width="700" height="750" src="https://www.youtube.com/embed/C14m2R-Vpg0"
-                            title="TOP 5 WORLD PAINTINGS| FIRST IS MONA LISA BY LEONARDO DA VINCI| i5 GALAXY"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="creator__inner-right">
-                        <div class="creator__inner-title">
-                            <h2>the creator network®</h2>
-                        </div>
-                        <div class="creator__box">
-                            <div class="creator__inner-account">
-                                <img src="./img/acoount.png" alt="account">
-                                <p class="creator__inner-name"> <span> Creator </span> <br>Enrico Cole</p>
-                            </div>
-                            <div class="creator__inner-account">
-                                <img src="./img/user.png" alt="account">
-                                <p class="creator__inner-name"> <span> Instant price </span> <br>3.5 ETH</p>
-                            </div>
-                        </div>
-                        <div class="creator__inner-item">
-                            <div class="creator__inner-item1">
-                                <h2 class="inner-title">Current Bid</h2>
-                                <p class="inner__item1">1.00 ETH</p>
-                                <p class="inner__item1-price">$3,618.36</p>
-                            </div>
-                            <div class="inner__box-time">
-                                <div class="creator__inner-time">
-                                    <div class="ll">
-                                        <p class="inner__time"> Auction ending in</p>
-                                    </div>
-                                    <div class="creator__wrapper-time">
-                                        <p class="inner__time-hours">19</p>
-                                        <p class="inner__time-hours">29</p>
-                                        <p class="inner__time-hours">10</p>
-                                    </div>
-                                </div>
-                                <div class="creator__inner-time2">
-
-                                    <p class="inner__time-item">Hrs</p>
-                                    <p class="inner__time-item">mins</p>
-                                    <p class="inner__time-item">secs</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hero__inner-btns">
-                            <p class="hero__inner-btn">Place a bit</p>
-                            <p class="hero__inner-btn1">View item</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="update">
-            <div class="container">
-                <div class="update__wrapper">
-                    <div class="update__wrapper-item1">
-                        <img src="./img/bird.png" alt="bird">
-                    </div>
-                    <div class="update__wrapper-bottom">
-                        <div class="update__wrapper-account">
-                            <img class="update__wrapper-img1" src="./img/acoount.png" alt="">
-                            <div class="ff">
-                                <h2 class="update__wrapper-title">The future of ETH®</h2>
-                                <p class="update__wrapper-text">18 in stock</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
+    </section>
 </body>
-
 
 </html>
