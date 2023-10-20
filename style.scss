@@ -149,6 +149,61 @@ body{
 }
 
 
+.creator {
+
+    // .creator__wrapper
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    // .creator__wrapper-img
+
+    &__wrapper-img.1 {
+        background-color: red;
+        width: 40px;
+        height: 40px;
+        // border-radius: 50%;
+        
+    }
+
+    // .creator__wrapper-top
+
+    &__wrapper-top {
+    }
+
+    // .creator__wrapper-title
+
+    &__wrapper-title {
+        font-size: 64px;
+        font-weight: 900;
+    }
+
+    // .creator__wrapper-account
+
+    &__wrapper-account {
+        display: flex;
+    }
+
+    // .creator__wrapper-item1
+
+    &__wrapper-item1 {
+        display: flex
+
+    }
+
+    // .creator__wrapper-acc
+
+    &__wrapper-acc {
+    }
+}
+.container {
+}
+
+
+
+
 
 
 

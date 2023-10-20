@@ -96,4 +96,13 @@ body {
   border: 2px solid #E6E8EC;
   padding: 16px 24px;
   border-radius: 90px;
+}
+
+.creator__wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.creator__wrapper-title {
+  font-size: 64px;
+  font-weight: 900;
 }/*# sourceMappingURL=style.css.map */
