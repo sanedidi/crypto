@@ -99,10 +99,113 @@ body {
 }
 
 .creator__wrapper {
+  padding-top: 130px;
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+.creator__wrapper-img.one {
+  background-color: #E4D7CF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.creator__wrapper-img img {
+  border-radius: 20px;
 }
 .creator__wrapper-title {
   font-size: 64px;
   font-weight: 900;
+}
+.creator__wrapper-account {
+  padding-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+.creator__wrapper-item1 {
+  display: flex;
+  gap: 20px;
+}
+.creator__wrapper-acc > span {
+  color: grey;
+}
+.creator__wrapper-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #9b9fa8;
+  border-radius: 20px;
+  margin: 100px auto 0;
+  padding: 30px;
+  box-shadow: -1px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.creator__wrapper-box-item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.creator__wrapper-price {
+  font-size: 16px;
+}
+.creator__wrapper-ETH {
+  font-size: 48px;
+  font-weight: 900;
+}
+.creator__wrapper-doll {
+  font-size: 24px;
+  color: #777E90;
+}
+.creator__wrapper-end {
+  padding-top: 30px;
+}
+.creator__wrapper-item2 {
+  display: flex;
+}
+.creator__wrapper-hours {
+  font-size: 32px;
+}
+.creator__wrapper-hours2 {
+  font-size: 16px;
+  color: #777E90;
+}
+.creator__wrapper-time {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+.creator__wrapper-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+.creator__wrapper-btn1 {
+  color: white;
+  background-color: #3772FF;
+  padding: 10px 44px;
+  border-radius: 20px;
+}
+.creator__wrapper-btn2 {
+  color: black;
+  border: 1px solid #E6E8EC;
+  padding: 10px 44px;
+  border-radius: 20px;
+}
+
+.upload__wrapper-bgc {
+  background-image: url(./img/bird.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 430px;
+  height: 430px;
+}
+.upload__wrapper-account {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.upload__wrapper-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
